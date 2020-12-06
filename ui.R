@@ -15,7 +15,7 @@ shinyUI(
           
           dashboardSidebar(disable = TRUE),
 
-          dashboardBody(includeCSS("css/books.css"),
+          dashboardBody(includeCSS("css/movies.css"),
               fluidRow(
                   box(width = 12, title = "Step 1: Rate as many movies as possible", status = "info", solidHeader = TRUE, collapsible = TRUE,
                       div(class = "rateitems",
